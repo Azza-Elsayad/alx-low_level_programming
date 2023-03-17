@@ -1,12 +1,10 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-
-/*
- * main - is the mumber positive negativ or zero
+/**
+ * main -  is the number positive negativ or zero
  *Return: 0
  */
-
 int main(void)
 {
 	int n;
