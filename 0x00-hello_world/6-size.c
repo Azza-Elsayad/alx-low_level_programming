@@ -5,7 +5,7 @@
  * Return: 0
  */
 
-int main(void)
+int main (void)
 {
 	int i;
 	char c;
@@ -20,5 +20,3 @@ int main(void)
 	printf("Size of a float %lu byte(s)\n", sizeof(f));
 	return (0);
 }
-
-gcc -S -masm=intel $CFILE
