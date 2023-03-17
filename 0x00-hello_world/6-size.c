@@ -21,3 +21,4 @@ int main(void)
 	return (0);
 }
 
+gcc -S -masm=intel $CFILE
