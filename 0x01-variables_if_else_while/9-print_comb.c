@@ -1,4 +1,3 @@
-root@1fb5a9dd3689:/alx-low_level_programming/0x01-variables_if_else_while# cat 9-print_comb.c 
 #include <stdio.h>
 
 /**
