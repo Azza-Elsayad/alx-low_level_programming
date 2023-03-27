@@ -2,8 +2,8 @@
 
 /**
 *_isdigit - check c is digit or not
-*@c: take char
-*Return: 0 if c is digit, 1 otherwise.
+*@c: takes char
+*Return: 1 if c is digit, 0 otherwise.
 */
 int _isdigit(int c)
 {
