@@ -4,7 +4,7 @@
  *@s: the pointer that poiint to the first element of the string
  *Return: string
  **/
-void rev_string(char *s);
+void rev_string(char *s)
 {
 	int i;
 
