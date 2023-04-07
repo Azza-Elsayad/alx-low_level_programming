@@ -16,4 +16,5 @@ void rev_string(char *s)
 	{
 		_putchar(s[n]);
 	}
+	_putchar('\n');	
 }
