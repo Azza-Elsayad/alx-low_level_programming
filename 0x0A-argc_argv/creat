@@ -1,0 +1,4 @@
+#!/bin/bash
+name=$1
+echo "#!/bin/bash" > $name
+chmod u+x $name
