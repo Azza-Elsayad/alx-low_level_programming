@@ -22,7 +22,7 @@ else
 
 for (i = 1; i < argc; i++)
 {
-	if (*argv[i] < '0' || *argv[i] >'9')
+	if (*argv[i] < '0' || *argv[i] > '9')
 			{
 				printf("Error\n");
 				return (1);
@@ -30,7 +30,7 @@ for (i = 1; i < argc; i++)
 			else
 			{
 sum += atoi(argv[i]);
-			}		
+			}
 }
 }
 
