@@ -15,26 +15,21 @@ if (argc == 1)
 printf("0\n");
 return (0);
 }
-
 else
 {
-/*while(isdigit argv[i] == true)*/
-
 for (i = 1; i < argc; i++)
 {
 	if (*argv[i] < '0' || *argv[i] > '9')
-			{
-				printf("Error\n");
-				return (1);
-			}
-			else
-			{
-sum += atoi(argv[i]);
-			}
+	{
+		printf("Error\n");
+		return (1);
+	}
+	else
+	{
+		sum += atoi(argv[i]);
+	}
 }
 }
-
 printf("%d\n", sum);
-
 return (1);
 }
