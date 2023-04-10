@@ -29,9 +29,9 @@ for (i = 1; i < argc; i++)
 		}
 		else
 		{
-			sum += atoi(argv[i]);
+			
 		}
-	}
+	}sum += atoi(argv[i]);
 }
 }
 printf("%d\n", sum);
